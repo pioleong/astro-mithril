@@ -2,9 +2,9 @@ import { type AstroIntegration } from 'astro'
 
 function getRenderer() {
     return {
-        name: 'astro-mithril',
-        clientEntrypoint: 'astro-mithril/client.js',
-        serverEntrypoint: 'astro-mithril/server.js',
+      name: 'astro-mithril',
+      clientEntrypoint: 'astro-mithril/src/client.js',
+      serverEntrypoint: 'astro-mithril/src/server.js',
     }
 }
 

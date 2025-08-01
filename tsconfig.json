@@ -2,7 +2,7 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "lib": ["dom", "ES2017"],
-        "allowJs": false,
+        "allowJs": true,
         "baseUrl": "./",
         "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
@@ -17,5 +17,5 @@
         "skipLibCheck": true,
         "strict": true
     },
-    "include": ["src/**/*.ts", "src/**/*.cts", "src/**/*.mts", "src/**/*.tsx"]
+    "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.cts", "src/**/*.mts", "src/**/*.tsx"]
 }
