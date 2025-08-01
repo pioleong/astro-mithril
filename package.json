@@ -1,14 +1,14 @@
 {
-  "name": "astro-mithril",
+  "name": "@pioleong/astro-mithril",
   "description": "Use Mithril components within Astro",
   "version": "0.0.8",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "author": "pep108",
+  "author": "pep108 / pioleong",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pep108/astro-mithril.git"
+    "url": "git+https://github.com/pioleong/astro-mithril.git"
   },
   "keywords": [
     "astro-integration",
@@ -16,8 +16,8 @@
     "renderer",
     "mithril"
   ],
-  "bugs": "https://github.com/pep108/astro-mithril/issues",
-  "homepage": "https://github.com/pep108/astro-mithril",
+  "bugs": "https://github.com/pioleong/astro-mithril/issues",
+  "homepage": "https://github.com/pioleong/astro-mithril",
   "exports": {
     ".": "./dist/index.js",
     "./client.js": "./dist/client.js",
