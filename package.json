@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "astro": "^4.15.9",
+    "copyfiles": "^2.4.1",
     "tsup": "^8.3.0",
     "typescript": "^5.6.2"
   },
@@ -38,6 +39,8 @@
     "dist"
   ],
   "scripts": {
+    "copyJSFiles": "copyfiles --error --up 1 src/*.js dist",
+    "postbuild": "pnpm run copyJSFiles",
     "build": "tsup-node"
   }
 }
